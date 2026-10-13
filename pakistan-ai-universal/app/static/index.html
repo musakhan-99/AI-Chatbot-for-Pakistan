@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Pakistan AI — a Pakistan-focused AI assistant for locals and visitors." />
+  <title>Pakistan AI</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand-row">
+        <div class="brand-mark">PK</div>
+        <div>
+          <div class="brand-name">Pakistan AI</div>
+          <div class="brand-subtitle">Ask Pakistan anything</div>
+        </div>
+      </div>
+
+      <button class="new-chat" id="newChatBtn" type="button">+ New conversation</button>
+
+      <div class="panel-label">Experience</div>
+      <div class="mode-switch" role="group" aria-label="User mode">
+        <button class="mode-btn active" data-mode="local" type="button">Pakistani</button>
+        <button class="mode-btn" data-mode="visitor" type="button">Visitor</button>
+      </div>
+
+      <label class="panel-label" for="languageSelect">Response language</label>
+      <select id="languageSelect" class="language-select">
+        <option value="auto">Auto detect</option>
+        <option value="en">English</option>
+        <option value="ur">اردو</option>
+        <option value="roman-ur">Roman Urdu</option>
+        <option value="ps">پښتو</option>
+      </select>
+
+      <div class="sidebar-info">
+        <div class="info-title">Source-aware answers</div>
+        <p>General knowledge comes from live Wikipedia retrieval. Government topics also show the relevant official Pakistani authority.</p>
+      </div>
+
+      <div class="sidebar-footer">
+        <span class="status-dot"></span>
+        Configurable AI · Wikipedia
+      </div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <button id="menuBtn" class="menu-btn" aria-label="Open menu" type="button">☰</button>
+        <div class="topbar-title">Pakistan AI</div>
+        <div class="topbar-pill" id="modePill">Pakistani mode</div>
+      </header>
+
+      <section class="chat-wrap" id="chatWrap">
+        <div class="welcome" id="welcome">
+          <div class="flag-orb" aria-hidden="true">☾★</div>
+          <p class="eyebrow">PAKISTAN-SPECIALIZED ASSISTANT</p>
+          <h1>Ask Pakistan anything.</h1>
+          <p class="welcome-copy" id="welcomeCopy">Get practical answers about Pakistan, from culture and cities to education, government services, tourism and business.</p>
+
+          <div class="suggestions" id="suggestions"></div>
+
+          <div class="trust-row">
+            <span>Live Wikipedia retrieval</span>
+            <span>Official authority routing</span>
+            <span>English · Urdu · Roman Urdu · Pashto</span>
+          </div>
+        </div>
+
+        <div class="messages" id="messages" aria-live="polite"></div>
+      </section>
+
+      <footer class="composer-wrap">
+        <form class="composer" id="chatForm">
+          <textarea id="messageInput" rows="1" maxlength="4000" placeholder="Ask about Pakistan..." aria-label="Message"></textarea>
+          <button class="send-btn" id="sendBtn" type="submit" aria-label="Send message">➜</button>
+        </form>
+        <p class="composer-note">AI can make mistakes. Verify changing procedures, fees and deadlines with the official source shown.</p>
+      </footer>
+    </main>
+  </div>
+
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <script src="/static/app.js" defer></script>
+</body>
+</html>

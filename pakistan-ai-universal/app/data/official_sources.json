@@ -1,0 +1,80 @@
+[
+  {
+    "name": "National Database and Registration Authority (NADRA)",
+    "authority": "NADRA",
+    "url": "https://www.nadra.gov.pk/",
+    "keywords": ["nadra", "cnic", "nicop", "poc", "identity card", "شناختی کارڈ", "nic"]
+  },
+  {
+    "name": "Federal Board of Revenue (FBR)",
+    "authority": "FBR",
+    "url": "https://www.fbr.gov.pk/",
+    "keywords": ["fbr", "tax", "ntn", "filer", "income tax", "sales tax", "ٹیکس", "فائلر"]
+  },
+  {
+    "name": "Securities and Exchange Commission of Pakistan (SECP)",
+    "authority": "SECP",
+    "url": "https://www.secp.gov.pk/",
+    "keywords": ["secp", "company registration", "register company", "incorporation", "startup company", "private limited"]
+  },
+  {
+    "name": "Directorate General Immigration & Passports",
+    "authority": "DGIP",
+    "url": "https://dgip.gov.pk/",
+    "keywords": ["passport", "dgip", "immigration passport", "پاسپورٹ"]
+  },
+  {
+    "name": "Pakistan Online Visa System",
+    "authority": "Government of Pakistan / NADRA",
+    "url": "https://visa.nadra.gov.pk/",
+    "keywords": ["visa", "tourist visa", "business visa", "visit pakistan", "ویزا"]
+  },
+  {
+    "name": "Ministry of Foreign Affairs Pakistan",
+    "authority": "MOFA",
+    "url": "https://mofa.gov.pk/",
+    "keywords": ["foreign affairs", "embassy", "consulate", "attestation", "diplomatic", "foreigner"]
+  },
+  {
+    "name": "Higher Education Commission Pakistan",
+    "authority": "HEC",
+    "url": "https://www.hec.gov.pk/",
+    "keywords": ["hec", "university", "degree attestation", "scholarship", "higher education", "universities", "تعلیم", "یونیورسٹی"]
+  },
+  {
+    "name": "State Bank of Pakistan",
+    "authority": "SBP",
+    "url": "https://www.sbp.org.pk/",
+    "keywords": ["state bank", "sbp", "banking", "policy rate", "currency", "exchange rate", "bank"]
+  },
+  {
+    "name": "Pakistan Telecommunication Authority",
+    "authority": "PTA",
+    "url": "https://www.pta.gov.pk/",
+    "keywords": ["pta", "sim", "mobile registration", "dirbs", "imei", "telecom", "internet"]
+  },
+  {
+    "name": "Pakistan Bureau of Statistics",
+    "authority": "PBS",
+    "url": "https://www.pbs.gov.pk/",
+    "keywords": ["pbs", "population", "census", "inflation", "statistics", "data pakistan"]
+  },
+  {
+    "name": "Pakistan Meteorological Department",
+    "authority": "PMD",
+    "url": "https://www.pmd.gov.pk/",
+    "keywords": ["weather", "forecast", "rain", "temperature", "earthquake", "mausam", "موسم"]
+  },
+  {
+    "name": "National Disaster Management Authority",
+    "authority": "NDMA",
+    "url": "https://ndma.gov.pk/",
+    "keywords": ["ndma", "flood", "disaster", "emergency", "earthquake", "landslide"]
+  },
+  {
+    "name": "Pakistan Tourism Development Corporation",
+    "authority": "PTDC",
+    "url": "https://tourism.gov.pk/",
+    "keywords": ["tourism", "tourist", "travel pakistan", "visit pakistan", "hunza", "swat", "skardu", "trip"]
+  }
+]
