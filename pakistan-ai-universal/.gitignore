@@ -1,7 +1,33 @@
+# Environment variables / API keys
 .env
+.env.*
+!.env.example
+
+# Python virtual environment
 .venv/
 venv/
+env/
+
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Python tools/cache
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
 .DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node
+node_modules/
